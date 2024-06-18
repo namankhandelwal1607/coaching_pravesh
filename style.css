@@ -1,0 +1,313 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+#home{
+    background-image: url(bg.jpg); 
+    width: 100%;
+    height: 80vh;
+    padding-top: 2vh;
+    color: black;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#know{
+  color: black;
+}
+
+#web{
+    width: 25%;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vh;
+}
+
+#taskbar{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.task :hover{
+    color: gray;
+}
+
+#center{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-around;
+}
+
+#know{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vh;
+}
+
+#find{
+    display: flex;
+    width: 50%;
+    
+}
+input{
+    height: 6vh;
+    width: 80%;
+    border-radius: 1vh;
+    
+}
+
+#search{
+    height: 6vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orangered;
+    border-radius: 1vh;
+}
+
+#search:hover{
+    opacity: 70%;
+}
+
+
+
+
+#college{
+    background-image: url(college.jpg);
+}
+
+#news{
+    background-image: url(news.jpg);
+}
+
+#cutoff{
+    background-image: url(cutoff.jpg);
+}
+
+#exams{
+    background-image: url(exams.jpg);
+}
+
+#too{
+    background-image: url(tools.jpg);
+}
+
+#forums{
+    background-image: url(forums.jpg);
+}
+
+.ab{
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 4vh;
+    transition: justify-content 2s ease-in-out 2s
+}
+
+
+
+.ac{
+    width: 350px;
+    height: 150px;
+}
+
+.ad{
+    width: 350px;
+    height: 330px;
+}
+  #dabba{
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+
+  .a{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .take{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .up1 a{
+    color: black;
+  }
+
+  .up2{
+    width: 300px;
+    height: 250px;
+    border: 1px rgb(255, 255, 255) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+  .up2:hover{
+    background-color: #211f2f;
+    color: white;
+  }
+
+  .up1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #updates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  img{
+    height: 250px;
+    width: 250px;
+  }
+
+  
+
+  .inst1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+  }
+
+  .info a{
+    color: black;
+  }
+
+  .kse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 155px;
+  }
+
+  #inst{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+#bottom{
+    background-color: rgb(1, 1, 70);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+
+
+@media (max-width: 900px){
+    
+  #head{
+    font-size: 30px;
+  }
+
+  #taskbar{
+    flex-direction: column;
+  }
+
+  #know{
+    font-size: 5vh;
+  }
+
+  .take{
+    font-size: 100%;
+  }
+
+  #dabba{
+    flex-direction: column;
+  }
+
+  .up1{
+    flex-direction: column;
+  }
+
+  #inst{
+    flex-direction: column;
+  }
+
+  .inst1{
+    margin-top: 10px;
+  }
+}
+
+#mode{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: fixed;
+}

@@ -1,0 +1,154 @@
+
+
+
+
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #CADCFC;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(1,1,70);
+    padding-top: 2vh;
+}
+
+#web{
+    width: 25%;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vh;
+}
+
+#taskbar{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.task :hover{
+    color: gray;
+}
+
+#bottom{
+    background-color: rgb(1, 1, 70);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.pic{
+    background-image: url(modulus.png);
+    height: 20vh;
+    width: 20vh;
+    background-size: cover;
+}
+
+
+.a{
+    background-color: white;
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    margin-left: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 3.5vh;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.ab{
+    display: flex;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.a a{
+    color: black;
+}
+
+#head{
+    font-size: 50px;
+    margin-left: 20vh;
+    margin-top: 3vh;
+}
+
+
+#allen{
+    background-image: url(allen.jpeg);
+}
+
+#pw{
+    background-image: url(pw.jpg);
+}
+
+#guru{
+    background-image: url(gurukripa.jpg);
+}
+
+#aakash{
+    background-image: url(aakash.png);
+}
+
+#resonance{
+    background-image: url(resonance.jpeg);
+}
+
+#cp{
+    background-image: url(cp.png);
+}
+
+#cm{
+    background-image: url(cm.png);
+}
+
+@media (max-width: 900px){
+    
+    #head{
+      font-size: 30px;
+    }
+  
+    #taskbar{
+      flex-direction: column;
+    }
+
+    .ab{
+        flex-direction: column;
+    }
+}
+
+.btns{
+    background-color: cyan;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 2rem;
+}

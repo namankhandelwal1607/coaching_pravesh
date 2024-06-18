@@ -1,0 +1,54 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: aliceblue;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(1,1,70);
+    padding-top: 2vh;
+}
+
+#web{
+    width: 25%;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vh;
+}
+
+#taskbar{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.task :hover{
+    color: gray;
+}
+
+#bottom{
+    background-color: rgb(1, 1, 70);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
